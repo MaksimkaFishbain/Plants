@@ -264,10 +264,14 @@ body{
     margin-left: 109px;
 }
 
+.prices-dropbtn h2{
+    text-align: left;
+    margin-bottom: 60px;
+}
+
 .prices-btn{
     width: 452px;
     margin-right: 109px;
-
 
 }
 
@@ -421,6 +425,156 @@ body{
     border-radius: 20px;
 
 }
+
+.contacts{
+    height: 550px;
+    display: flex;
+}
+
+.contacts img{
+    margin-top: 53px;
+    margin-left: 109px;
+}
+
+.contacts h2{
+    margin-left: 113px;
+    margin-top: 60px;
+    margin-right: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.contacts-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 148px;
+    margin-right: 109px;
+    height: 284px;
+}
+
+.contacts-dropdown-active {
+    width: 450px;
+    height: 234px;
+    display: none;
+    position: absolute;
+    background-color: #DCE9D9;
+    min-width: 160px;
+    z-index: 1;
+
+}
+
+.contacts-dropdown-active .contacts-dropdown-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+    margin-left: 35px;
+    padding-left: 6px;
+    border-bottom: 1px solid #D9D9D9;
+    width: 380px;
+    height: 35px;
+}
+
+.contacts-dropdown-active .contacts-dropdown-text:hover{
+    border-bottom: 1px solid #717171;
+    color: #717171;
+}
+
+.contacts-dropdown:hover .contacts-dropdown-active {
+    display: block;
+}
+
+.contacts-dropdown:hover .contacts-dropdown-not-active{
+    background-color: #C1E698;
+    box-shadow: none;
+}
+
+.contacts-dropdown:hover .contacts-dropdown-img{
+    background: url("img/up.svg");
+}
+
+.contacts-dropdown-text{
+    width: 164px;
+}
+
+.contacts-dropdown-not-active{
+    display: flex;
+    width: 450px;
+    height: 50px;
+    background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    align-items: center;
+}
+
+.contacts-dropdown-not-active p{
+    margin-left: 20px;
+}
+
+
+.contacts-dropdown-img{
+    background: url("img/down.svg");
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+footer{
+    background-color: white;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+footer p:nth-child(1){
+    margin-left: 109px;
+    margin-right: 20px;
+}
+
+footer p:nth-child(3){
+    margin-left: 20px;
+    margin-right: 337px;
+}
+
+footer a{
+    width: 27px;
+    height: 27px;
+}
+
+footer .logo-inst{
+    margin-left: auto;
+    margin-right: 31px;
+}
+
+footer .logo-fb{
+    margin-right: 30px;
+}
+
+footer .logo-pinterest{
+    margin-right: 112px;
+    margin-left: 25px;
+}
+
+
 
 
 
